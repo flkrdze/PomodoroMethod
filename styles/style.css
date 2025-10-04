@@ -1,0 +1,47 @@
+/* изначально почему-то у * есть и маржин и паддинг (не нулевой) */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgb(242, 148, 148);
+    padding: 40px 10px 40px 10px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+header ul li {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container {
+    
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header a:hover {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: rgb(242, 148, 148);
+}
