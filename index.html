@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pomodoro Method</title>
     <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts/script.js"></script>
+    <audio id="notification-sound" src="resources/mixkit-correct-answer-tone-2870.wav" preload="auto"></audio>
 </head>
 <body>
     <header class="header">
@@ -16,5 +16,11 @@
             </ul>
         </div>
     </header>
+    <div class="timer-container">
+        <span id="timer-display">00:00</span>
+        <button id="timer-button">Старт</button>
+        <p id="phase-getter">current task: work</p>
+        <script src="scripts/script.js"></script>
+    </div>
 </body>
 </html>
